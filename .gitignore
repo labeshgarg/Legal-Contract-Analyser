@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ML Models and checkpoints
+*.safetensors
+*.pt
+ml_training/bert_clause_model/
+
+# Database and storage files
+*.pkl
+*.sqlite3
+chroma_store/
+backend/chroma_store/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.db
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# IDE files
+.vscode/
+.idea/
